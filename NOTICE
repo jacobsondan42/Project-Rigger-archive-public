@@ -1,0 +1,38 @@
+Project Rigger — methodology and decisions records archive (public tier)
+========================================================================
+
+What this is
+------------
+This repository is the archive tier of a workforce and talent framework
+("Project Rigger") developed for the City of San Bruno. It holds historical
+spine files (hash-chained records of architectural decisions) that have been
+superseded by newer canonical versions but are preserved for chain-historical
+auditability.
+
+What this is not
+----------------
+- Not the active framework. The canonical, current-state framework lives in
+  a private working surface (claude.ai project knowledge); this archive is
+  the cold-storage complement.
+- Not a complete record. Personal records, operational handoffs referencing
+  specific stakeholders, and city-internal context live in a separate private
+  archive repository.
+- Not a substitute for executive function or staffing decisions.
+
+Intent
+------
+The framework is published in part under CC BY 4.0 to allow reuse, citation,
+and adaptation by other municipalities, civic-tech practitioners, and
+methodology researchers. The records-keeping discipline (hash-chained
+provenance, mod-N versioning, timestamped spine, etc.) is the substrate; the
+specific San Bruno application is the worked example. Either is fair game
+under the license, with attribution.
+
+Provenance and integrity
+------------------------
+Each file in this archive is referenced from an `_archive_manifest.md` in the
+canonical working surface with a SHA-256 hash captured at archive time.
+Future audit operations can verify byte-equality between the manifest hash
+and the file fetched from raw.githubusercontent.com.
+
+License: see LICENSE (CC BY 4.0).
